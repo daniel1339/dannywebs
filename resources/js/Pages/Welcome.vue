@@ -69,7 +69,7 @@ const props = defineProps({
                         <div class="ml-12">
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     
-                                Crea un Ecommerces con Laravel, Livewire, Tailwind y Alpine                           
+                                Crea un Ecommercess con Laravel, Livewire, Tailwind y Alpine                           
                             </div>
                         </div>
 
