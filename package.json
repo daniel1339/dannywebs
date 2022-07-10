@@ -1,9 +1,10 @@
 {
     "private": true,
     "scripts": {
-        "postinstall": "vite build",
+        
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "postinstall": "vite build"
         
         
     },
