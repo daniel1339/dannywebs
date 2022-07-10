@@ -1,7 +1,7 @@
 {
     "private": true,
     "scripts": {
-        "postinstall": "vite run build",
+        "postinstall": "vite build",
         "dev": "vite",
         "build": "vite build"
         
