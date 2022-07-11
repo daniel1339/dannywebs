@@ -16,12 +16,12 @@ export default {
 <template>
     
 <nav class="bg-gradient-to-r  from-blue-700 to-blue-500  border-gray-200 px-2 sm:px-16 py-2.5  rounded   shadow-xl ">
-  <div class="container flex flex-wrap justify-between items-center mx-auto">
+  <div class="container flex flex-wrap justify-between  items-center mx-auto">
     
     
     <Link href="/" class="flex space-x-4   items-center ">
         <JetApplicationMark class="block  " />
-        <a class="text-white font-semibold sm:visible invisible font-sans  sm:text-3xl text-xl" href="/">DannyWebs</a>
+        <a class="text-white font-semibold font-sans  sm:text-3xl text-xl" href="/">DannyWebs</a>
         
     </Link>
     
