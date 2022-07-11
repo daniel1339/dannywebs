@@ -29,7 +29,8 @@ const props = defineProps({
             </Swiper>
           </div>
           <h1 class="text-2xl font-semibold text-center my-5">{{welcome.name}}</h1>
-          <p class="text-center text-xl font-medium mb-10">{{welcome.description}}</p>
+          <p class="text-center text-xl font-medium mb-5">{{welcome.description}}</p>
+          <p class="text-center text-md font-medium mb-10">{{welcome.software}}</p>
         </div>
         <Footer />
     </div>

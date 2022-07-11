@@ -25,7 +25,7 @@ const props = defineProps({
                     <img class="rounded  px-12 lg:px-0 lg:pb-0 pb-4" src="../../../public/dist/IMG_4853.jpeg" alt="">
                     
                 </div>
-                <p class="px-6 font-semibold text-lg  ">soy desarrollador web experto en laravel Php y Javascript me apasiona todo el desarrollo de una pagina web desde crear y diseñar un backend hasta darle acabados a un frontend, me gusta aprender y compartir conocimientos quisiera trabajar para una empresa que me permita seguir creciendo como profesional y y desarrollar mi carrera como ingeniero</p>
+                <p class="px-6 font-semibold text-lg  ">soy desarrollador web experto en laravel PHP y Javascript me apasiona todo el desarrollo de una pagina web, desde crear y diseñar un backend hasta darle acabados a un frontend, me gusta aprender y compartir conocimientos quisiera trabajar para una empresa que me permita seguir creciendo como profesional y desarrollar mi carrera como ingeniero.</p>
             </div>
                 
             <div class="grid grid-cols-1 md:grid-cols-2">
@@ -94,7 +94,7 @@ const props = defineProps({
       <p class="text-gray-700 text-base mb-4"> {{room.description.substring(0,80)+".."}} <br>
         
       </p>
-      <a type="button" :href="route('welcome.show', room.id)" name="habitaciones" class=" inline-block px-6 py-2.5 bg-sky-600 text-white hover:text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Conocer mas</a>
+      <a type="button" :href="route('welcome.show', room)" name="habitaciones" class=" inline-block px-6 py-2.5 bg-sky-600 text-white hover:text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Conocer mas</a>
     </div>
     </div>
 </div>

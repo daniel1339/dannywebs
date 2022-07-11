@@ -13,4 +13,8 @@ class Welcome extends Model
     public function images(){
         return $this->hasMany(Image::class);
        }
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 }

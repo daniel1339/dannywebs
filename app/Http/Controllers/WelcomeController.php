@@ -19,7 +19,9 @@ class WelcomeController extends Controller
             return [
                 'id' => $room->id,
                 'name' => $room->name,
+                'slug' => $room->slug,
                 'description' => $room->description,
+                'software' => $room->software,
               
                 'image' => asset('dist/' . $room->image),
               

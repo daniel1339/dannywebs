@@ -20,42 +20,50 @@ class WelcomeSeeder extends Seeder
            
 
             [
+                'slug' => 'pagina-web-kartonar',
                 'name' => 'Pagina web Kartonar',
-                'description' => 'Esta pagina se creo para darle visibilidad a la empresa y mas importancia a lo que busca el usuario y a una atención agil y personalizada' ,
+                'description' => 'Esta pagina se creo para darle visibilidad a la empresa y mas importancia a lo que busca el usuario además una atención agil y personalizada' ,
                 'image' => 'rooms/kartonar.jpeg',
-                
+                'software' => 'Laravel 9 Livewire, Bootstrap'
                 
                
             ],
           
             [
+                'slug' => 'rental-fincas-Colombia',
                 'name' => 'Rental fincas Colombia',
                 'description' => 'Pagina web para ofrecer rentar y vender las mejores fincas en el pais tratando de personalizar al maximo la atención',
                 
                 'image' => 'rooms/monito.jpeg',
+                'software' => 'Laravel 9 Livewire, Alpine, Tailwind'
                
             ],
             [
+                'slug' => 'e.r.p-kartonar',
                 'name' => 'E.R.P Kartonar',
-                'description' => 'Este sistema esta diseñado especialmente para optimizar los procesos de producción de kartonar, mejorando los costos y las cotizaciones de ventas ',
+                'description' => 'Este sistema esta diseñado especialmente para optimizar los procesos de producción de kartonar, mejorando los costos y las cotizaciones de ventas, tambien contiene modulos de inventarios y tickets para resolver problemas internos.',
                
                 'image' => 'rooms/tabla.jpeg',
-               
+                'software' => 'Laravel 9 Livewire, Bootstrap'
             ],
 
             [
+                'slug' => 'cabana-autoadministrable',
                 'name' => 'Cabaña autoadministrable',
-                'description' => 'Este sistema esta diseñado especialmente para optimizar los procesos de producción de kartonar, mejorando los costos y las cotizaciones de ventas ',
+                'description' => 'Una página web para visibilzar esta cabaña y aprovechar recursos de marketing, es autoadministrable y contiene un módulo para almacenar las cotizaciones y los huespedes que quieran pasar unas vacaciones en el caribe.',
                
                 'image' => 'rooms/cabana.jpeg',
+                'software' => 'Laravel 9 Livewire, Inertia/Vue.js, Tailwind'
                
             ],
 
             [
-                'name' => 'Comercio electronico',
-                'description' => 'Este sistema esta diseñado especialmente para optimizar los procesos de producción de kartonar, mejorando los costos y las cotizaciones de ventas ',
+                'slug' => 'comercio-electronico',
+                'name' => 'Comercio electrónico',
+                'description' => 'Un comercio electrónico para cualquier tipo de producto tangible, es autoadministrable esta integrado con varias plataformas de pago y puede almacenar distintas marcas, colores y tamaños para un mismo producto.',
                
                 'image' => 'rooms/filtros.jpeg',
+                'software' => 'Laravel 9 Livewire, Alpine, Tailwind'
                
             ],
           
