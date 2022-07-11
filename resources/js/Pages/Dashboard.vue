@@ -32,6 +32,6 @@ const props = defineProps({
           <p class="text-center text-xl font-medium mb-5">{{welcome.description}}</p>
           <p class="text-center text-md font-medium mb-10">{{welcome.software}}</p>
         </div>
-        <Footer/>
+        <Footer />
     </div>
 </template>
