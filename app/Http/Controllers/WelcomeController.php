@@ -34,7 +34,7 @@ class WelcomeController extends Controller
                 'description' => $room->description,
                 'high_seasson' => $room->high_seasson,
                 'low_seasson' => $room->low_seasson,
-                'image' => asset('storage/' . $room->image),
+                'image' => asset('dist/' . $room->image),
                 'guests' => $room->guests,
                 'beds' => $room->beds,
             ];
