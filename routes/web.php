@@ -23,6 +23,6 @@ Route::resource('welcome', WelcomeController::class)->only([
     'show'
 ]);
 
-Route::get('/storage', function () {
+Route::get('/linkstorage', function () {
     Artisan::call('storage:link');
 });
