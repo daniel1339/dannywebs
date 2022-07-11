@@ -31,8 +31,11 @@ class WelcomeController extends Controller
             return [
                 'id' => $room->id,
                 'name' => $room->name,
+                'description' => $room->description,
+              
                 'image' => asset('dist/' . $room->image),
-                
+              
+               
             ];
       })
       ]);
@@ -46,7 +49,7 @@ class WelcomeController extends Controller
             return [
                 'id' => $image->id,
                
-                'image' => asset('storage/' . $image->image),
+                'image' => asset('dist/' . $image->image),
                
             ];
      }), 'welcome' =>$welcome 
