@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\WelcomeController;
 use Illuminate\Foundation\Application;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -22,4 +23,6 @@ Route::resource('welcome', WelcomeController::class)->only([
     'show'
 ]);
 
-
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
