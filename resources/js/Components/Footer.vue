@@ -1,10 +1,8 @@
 
-<script setup>
-import Form from '@/Components/Form.vue'
-</script>
+
 <template>
     <div class="bg-gradient-to-r  from-blue-700 to-blue-500  text-white ">
-        <div class="container justify-between px-20 content-center pt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="container justify-between md:px-10 lg:px20 px-5 content-center pt-10 grid grid-cols-1  gap-6">
             
             <div class="lg:my-5 text-center sm:text-start ">  
               <a href="tel:3024504528" class="container">celular: 3024504528</a><br>
@@ -17,9 +15,7 @@ import Form from '@/Components/Form.vue'
     </div>
             </div>
         
-            <div class=" ">  
-              <Form/>              
-            </div>
+            
         </div>
         
         <p class="text-center p-5 text-xs">Envigado-Antioquia 2022 pagina realizada por Daniel Arguelles Mesa © </p>

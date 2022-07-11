@@ -21,7 +21,7 @@ export default {
     
     <Link href="/" class="flex space-x-4   items-center ">
         <JetApplicationMark class="block  " />
-        <a class="text-white font-semibold font-sans  sm:text-3xl text-xl" href="/">DannyWebs</a>
+        <a class="text-white font-semibold sm:visible invisible font-sans  sm:text-3xl text-xl" href="/">DannyWebs</a>
         
     </Link>
     

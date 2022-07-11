@@ -12,19 +12,7 @@ use Illuminate\Support\Facades\Mail;
 class WelcomeController extends Controller
 {
     
-    public function store(Request $request)
-    {
-        $request->validate([
-            'name' => 'required',
-            'tel' => 'required',
-            'email' => 'required',
-            'message' => 'required'
-        ]);
-        Mail::to('marketing.kartonar@gmail.com')->send(new ContactanosMailable($request->name, $request->arrival, $request->departure, $request->guests));
-        
-        Contact::create($request->all());
-        return to_route('welcome');
-    }
+  
     public function index()
     {
         return Inertia::render('Welcome',  ['rooms' => Welcome::all()->map(function($room){
