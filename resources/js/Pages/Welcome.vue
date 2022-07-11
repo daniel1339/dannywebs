@@ -18,7 +18,7 @@ const props = defineProps({
             
         
         <div class="sm:mt-8 bg-white justify-end align-bottom dark:bg-gray-800 overflow-hidden shadow-xl sm:rounded-lg">
-            <h1 class="px-12 md:pt-6 text-2xl font-bold  ">Hola mi nombre es Daniel Arguelles:  </h1>
+            <h1 class="px-12 md:pt-6 text-2xl font-bold  ">Hola mi nombre es Daniel Arguelles Mesa:  </h1>
             <div class="grid lg:grid-cols-2 grid-cols-1 p-6 ">
                 <div >
                     
