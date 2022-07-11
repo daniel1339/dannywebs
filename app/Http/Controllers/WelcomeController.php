@@ -46,7 +46,7 @@ class WelcomeController extends Controller
             return [
                 'id' => $image->id,
                
-                'image' => asset('dist/' . $image->image),
+                'image' => asset('storage/' . $image->image),
                
             ];
      }), 'welcome' =>$welcome 
