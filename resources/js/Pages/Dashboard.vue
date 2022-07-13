@@ -23,7 +23,7 @@ const props = defineProps({
             <Swiper  :slides-per-view="1" :space-between="10" :modules="[Navigation, A11y, Pagination, Virtual]" 
                 navigation :pagination="{clickable: true, dinamycBullets: true}"  grab-cursor virtual>
                 <SwiperSlide   v-for="image in images" :key="image.id">
-                    <img class="lazy" :src="image.image" alt=""/>
+                    <img class="lazy" :src="image.image" alt="s"/>
                 </SwiperSlide>
 
             </Swiper>
