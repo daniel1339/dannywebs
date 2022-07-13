@@ -41,5 +41,11 @@
             transition-duration: 1s;
             } 
         </style>
+        <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.2/dist/lazyload.min.js"></script>
+        <script>
+            var lazyLoadInstance = new LazyLoad({
+  // Your custom settings go here
+});
+        </script>
     </body>
 </html>

@@ -22,7 +22,7 @@ const props = defineProps({
             <div class="grid lg:grid-cols-2 grid-cols-1 p-6 ">
                 <div >
                     
-                    <img class="rounded px-12  justify-start lg:pb-0 pb-4" src="../../../public/dist/IMG_4853.jpeg" alt="">
+                    <img class="rounded px-12  justify-start lg:pb-0 pb-4" src="../../../public/dist/inge.jpeg" alt="">
                     
                 </div>
                 <p class="px-6 font-semibold text-lg  ">Soy desarrollador web experto en laravel PHP y Javascript me apasiona todo el desarrollo de una pagina web, desde crear y diseñar un backend hasta darle acabados a un frontend, me gusta aprender y compartir conocimientos, quisiera trabajar para una empresa que me permita seguir creciendo como profesional y desarrollar mi carrera como ingeniero.</p>
