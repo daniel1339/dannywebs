@@ -42,6 +42,7 @@
             } 
         </style>
         <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.2/dist/lazyload.min.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.js"></script>
         <script>
             var lazyLoadInstance = new LazyLoad({
   // Your custom settings go here

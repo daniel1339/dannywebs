@@ -64,6 +64,7 @@ class WelcomeSeeder extends Seeder
                
                 'image' => 'rooms/filtros.jpeg',
                 'software' => 'Laravel 9 Livewire, Alpine, Tailwind'
+                
                
             ],
           

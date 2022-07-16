@@ -25,7 +25,7 @@ const props = defineProps({
                     <img class="rounded px-12  justify-start lg:pb-0 pb-4" src="../../../public/dist/trabajo.jpeg" alt="">
                     
                 </div>
-                <p class="px-6 font-semibold text-lg  ">Soy desarrollador web experto en laravel PHP y Javascript me apasiona todo el desarrollo de una pagina web, desde crear y diseñar un backend hasta darle acabados a un frontend, me gusta aprender y compartir conocimientos, quisiera trabajar para una empresa que me permita seguir creciendo como profesional y desarrollar mi carrera como ingeniero.</p>
+                <p class="px-6 font-semibold text-lg  ">Soy desarrollador web experto en laravel PHP y Javascript me apasiona todo el desarrollo de una pagina web, desde crear y diseñar un backend hasta darle acabados a un frontend, me gusta aprender y compartir conocimientos, quisiera trabajar para una empresa o empresas que me permita seguir creciendo como profesional y desarrollar mi carrera como ingeniero.</p>
             </div>
                 
             <div class="grid grid-cols-1 md:grid-cols-2">
@@ -80,10 +80,10 @@ const props = defineProps({
         </div>
 
 
-
+<h1 class="text-center my-5 text-2xl font-bold">Mis proyectos</h1>
 
             <div class="  
-             my-10 justify-items-center  grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2" >
+             my-5 justify-items-center  grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2" >
                 
   <div class="rounded-sm  m-5  shadow-lg bg-white max-w-sm" v-for="room in rooms" :key="room.id">
     

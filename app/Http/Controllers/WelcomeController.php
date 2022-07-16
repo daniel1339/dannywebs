@@ -34,7 +34,7 @@ class WelcomeController extends Controller
     
 
     public function show(Welcome $welcome)
-    {
+    { $cost = number_format(2000000,0,',' ,'.');
         return Inertia::render('Dashboard',  ['images' => Image::where('welcome_id', $welcome->id)->get()->map(function($image){
             return [
                 'id' => $image->id,
@@ -42,7 +42,7 @@ class WelcomeController extends Controller
                 'image' => asset('dist/' . $image->image),
                
             ];
-     }), 'welcome' =>$welcome 
+     }), 'welcome' =>$welcome, 'cost' => $cost 
     ]);
     }
 
